@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#e3f2fd">
+
+    <TextView
+        android:id="@+id/tvCodigo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Código:"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:textColor="#0d47a1"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/tvProducto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Producto:"
+        android:textSize="14sp"
+        android:textColor="#0d47a1"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/tvPrecioUnitario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Precio Unitario:"
+        android:textSize="14sp"
+        android:textColor="#0d47a1"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/tvCantidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cantidad:"
+        android:textSize="14sp"
+        android:textColor="#0d47a1"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btnAgregar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agregar"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:paddingVertical="10dp"
+        android:backgroundTint="#1976d2"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"/>
+</LinearLayout>

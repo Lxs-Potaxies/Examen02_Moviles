@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#e3f2fd">
+
+    <TextView
+        android:id="@+id/tvCodigo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Código:"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:textColor="#0d47a1"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/tvProducto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Producto:"
+        android:textSize="14sp"
+        android:textColor="#0d47a1"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/tvPrecioUnitario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Precio Unitario:"
+        android:textSize="14sp"
+        android:textColor="#0d47a1"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/tvCantidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cantidad:"
+        android:textSize="14sp"
+        android:textColor="#0d47a1"
+        android:layout_marginBottom="4dp"/>
+
+    <EditText
+        android:id="@+id/editCantidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Ingrese la cantidad"
+        android:textSize="14sp"
+        android:padding="8dp"
+        android:background="@drawable/edit_text_background"
+        android:textColorHint="#1976d2"
+        android:textColor="#0d47a1"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/tvDescuento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descuento:"
+        android:textSize="14sp"
+        android:textColor="#0d47a1"
+        android:layout_marginBottom="4dp"/>
+
+    <EditText
+        android:id="@+id/editDescuento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="Ingrese el descuento (%)"
+        android:textSize="14sp"
+        android:padding="8dp"
+        android:background="@drawable/edit_text_background"
+        android:textColorHint="#1976d2"
+        android:textColor="#0d47a1"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/tvSubTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sub Total:"
+        android:textSize="14sp"
+        android:textColor="#0d47a1"
+        android:layout_marginTop="8dp"/>
+</LinearLayout>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.users.SignupActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/title_activity_signup"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="24dp"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/txtCustomerID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="CustomerID"
+            android:inputType="text"
+            android:layout_marginBottom="16dp"
+            android:padding="12dp"
+            android:background="@drawable/edit_text_background"
+            android:textColorHint="#757575" />
+
+        <EditText
+            android:id="@+id/txtCompanyName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Company Name"
+            android:inputType="text"
+            android:layout_marginBottom="16dp"
+            android:padding="12dp"
+            android:background="@drawable/edit_text_background"
+            android:textColorHint="#757575" />
+
+        <EditText
+            android:id="@+id/txtRNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/prompt_name"
+            android:inputType="text"
+            android:layout_marginBottom="16dp"
+            android:padding="12dp"
+            android:background="@drawable/edit_text_background"
+            android:textColorHint="#757575" />
+
+        <EditText
+            android:id="@+id/txtREmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/prompt_email"
+            android:inputType="textEmailAddress"
+            android:layout_marginBottom="16dp"
+            android:padding="12dp"
+            android:background="@drawable/edit_text_background"
+            android:textColorHint="#757575"/>
+
+        <EditText
+            android:id="@+id/txtRContra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/prompt_password"
+            android:inputType="textPassword"
+            android:layout_marginBottom="16dp"
+            android:padding="12dp"
+            android:background="@drawable/edit_text_background"
+            android:textColorHint="#757575"/>
+
+        <EditText
+            android:id="@+id/txtRreContra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/prompt_password_confirm"
+            android:inputType="textPassword"
+            android:layout_marginBottom="24dp"
+            android:padding="12dp"
+            android:background="@drawable/edit_text_background"
+            android:textColorHint="#757575"/>
+
+        <Button
+            android:id="@+id/btnRegistrarU"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/prompt_register"
+            android:layout_marginHorizontal="32dp"
+            android:layout_marginBottom="24dp"
+            android:paddingVertical="12dp"
+            android:backgroundTint="#3F51B5"
+            android:textColor="#FFFFFF"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    </LinearLayout>
+</ScrollView>

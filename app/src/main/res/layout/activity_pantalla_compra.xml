@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Compañía"
+            android:background="#d1e0ff"
+            android:padding="8dp"
+            android:textStyle="bold"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/txtCompania"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="Vins et alcools Chevalier"
+            android:background="#f0f8ff"
+            android:padding="8dp"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Entregar"
+            android:background="#d1e0ff"
+            android:padding="8dp"
+            android:textStyle="bold"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/txtEntregar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="1994-09-01"
+            android:background="#f0f8ff"
+            android:padding="8dp"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnAgregarProducto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agregar Producto"
+        android:layout_marginVertical="12dp"
+        android:paddingVertical="12dp"
+        android:backgroundTint="#d1e0ff"
+        android:textColor="#000000"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <ListView
+        android:id="@+id/listProductosSeleccionados"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="#000000"
+        android:dividerHeight="1dp"
+        android:padding="8dp"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/txtSubTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Subtotal: 0.0"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:textColor="#000000"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/btnCancelarCompra"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Cancelar Compra"
+            android:backgroundTint="#F44336"
+            android:textColor="#FFFFFF"
+            android:layout_marginEnd="8dp"
+            android:padding="12dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <Button
+            android:id="@+id/btnAplicarCompra"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Aplicar Compra"
+            android:backgroundTint="#d1e0ff"
+            android:textColor="#000000"
+            android:padding="12dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">14_FireBaseAccess</string>
+
+    <string name="imagen_de_categoria">Imagen del Categoría</string>
+
+    <!-- Login and signup activity -->
+    <string name="title_activity_login">Validando usuario</string>
+    <string name="title_activity_signup">Registrando usuario</string>
+    <string name="title_activity_main">Lista de Categorías</string>
+
+    <string name="prompt_name">Nombre</string>
+    <string name="prompt_email">Correo electrónico</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="prompt_password_confirm">Confirmar contraseña</string>
+    <string name="prompt_registerhere">Registrate aquí</string>
+    <string name="prompt_register">Registrarse</string>
+    <string name="prompt_login">Ingresar</string>
+</resources>
